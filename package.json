@@ -1,0 +1,28 @@
+{
+  "name": "projeto-final-reprograma",
+  "version": "1.0.0",
+  "description": "Projeto de conclusão do bootcamp Todas em Tech da Reprograma.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansndsc/projeto-final-reprograma.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansndsc/projeto-final-reprograma/issues"
+  },
+  "homepage": "https://github.com/ansndsc/projeto-final-reprograma#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.14",
+    "nodemon": "^2.0.15"
+  }
+}
