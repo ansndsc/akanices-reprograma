@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({
+    
     name: {
         type: String,
         required: true,
@@ -15,6 +16,15 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         select: false
+    },
+    educationLevel: {
+        type: String
+    },
+    state: {
+        type: String
+    },
+    city: {
+        type: String
     }
 }, { timestamps: true });
 
