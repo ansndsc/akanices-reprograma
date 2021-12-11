@@ -16,15 +16,6 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         select: false
-    },
-    educationLevel: {
-        type: String
-    },
-    state: {
-        type: String
-    },
-    city: {
-        type: String
     }
 }, { timestamps: true });
 

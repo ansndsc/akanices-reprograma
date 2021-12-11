@@ -1,14 +1,14 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./database/mongoConfig');
 
 const userRoute = require('./routes/userRoute');
 
 require('dotenv-safe').config();
+require('./database/mongoConfig').connect();
 
 const app = express();
 
-db.connect();
+//db.connect();
 
 app.use(cors());
 app.use(express.json());
