@@ -16,6 +16,14 @@ const UserSchema = new mongoose.Schema({
         type: String,
         required: true,
         select: false
+    },
+    availableDate: {
+        type: String,
+        required: true
+    },
+    availableTime: {
+        type: String,
+        Required: true
     }
 }, { timestamps: true });
 
