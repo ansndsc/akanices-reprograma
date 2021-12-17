@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const UserSchema = new mongoose.Schema({
-    
+    id: mongoose.Schema.Types.ObjectId,
     name: {
         type: String,
         required: true,
@@ -15,7 +15,7 @@ const UserSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-        select: false
+        //select: false
     },
     availableDate: {
         type: String,
@@ -23,7 +23,12 @@ const UserSchema = new mongoose.Schema({
     },
     availableTime: {
         type: String,
-        Required: true
+        required: true
+    },
+    socialMedia: {
+        type: String,
+        required: true,
+        lowercase: true
     }
 }, { timestamps: true });
 
