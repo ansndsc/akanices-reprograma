@@ -7,7 +7,8 @@ A pandemia deixa suas marcas, e uma delas é a dificuldade de socializar pessoal
 ## Rotas:
 ### Rodando localmente:
 http://localhost:9898/akanices/users
-### Heroku:
+### Heroku: 
+https://akanices-reprograma.herokuapp.com/
 
 
 | Método | Endpoint                | Descrição                            |
