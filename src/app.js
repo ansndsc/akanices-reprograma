@@ -13,6 +13,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/users', userRoute);
+app.use('/akanices/users', userRoute);
 
 module.exports = app;
