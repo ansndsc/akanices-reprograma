@@ -4,9 +4,7 @@ const userController = require('../controllers/userController');
 
 const router = express.Router();
 
-router.get('/', userController.getAll);
-
-router.get('/search', userController.getUsers);
+router.get('/search', userController.search);
 
 router.post('/signup', userController.signUp);
 
