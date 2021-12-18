@@ -7,6 +7,7 @@ A pandemia deixa suas marcas, e uma delas é a dificuldade de socializar pessoal
 ## Rotas:
 ### Rodando localmente:
 http://localhost:9898/akanices/users
+
 ### Heroku: 
 https://akanices-reprograma.herokuapp.com/
 
@@ -40,3 +41,7 @@ https://akanices-reprograma.herokuapp.com/
 - [nodemon](https://www.npmjs.com/package/nodemon)
 
 <br>
+
+## Futuras Atualizações
+
+Implementar Autenticação e testes automatizados
