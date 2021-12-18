@@ -1,15 +1,6 @@
 const mongoose = require('mongoose');
 const UserSchema = require('../models/userSchema');
 
-const getAll = async (req, res) => {
-    try {
-        res.status(200).json({ UserSchema });
-
-    } catch (error) {
-        res.status(500).json({ message: error.message });
-    }
-}
-
 const search = async (req, res) => {
     try {
         
@@ -95,8 +86,7 @@ const remove = async (req, res) => {
 };
 
 module.exports = {
-    getAll,
-    getUsers: search,
+    search,
     signUp,
     update,
     remove
